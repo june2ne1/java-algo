@@ -4,7 +4,7 @@ package note;
  * @file_name : Class.java
  * @author    : june2ne1@naver.com
  * @date      : 2015. 9. 15.
- * @story     :
+ * @story     : 
  */
 
 public class Class {

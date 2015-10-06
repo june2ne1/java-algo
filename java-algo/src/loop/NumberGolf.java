@@ -15,8 +15,10 @@ public class NumberGolf {
 		Scanner scanner = new Scanner(System.in);
 		int count = 0, player = 0;
 		int com =0;
+		com = (int)(Math.random()*100+1);
+		System.out.println("컴퓨터의 숫자는 정해졌습니다.");
 		while (true) {
-			System.out.println("컴퓨터의 숫자는 정해졌습니다.\n 1부터 100사이의 정수를 입력하세요");
+			System.out.println(" 1부터 100사이의 정수를 입력하세요");
 			try {
 				player = scanner.nextInt();
 				if (player < 1 || player >100) {
